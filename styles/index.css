@@ -158,8 +158,19 @@ footer{
   margin-bottom: 5px;
 }
 
-@media screen and (min-width: 750px) and (orientation: landscape){
+@media screen and (min-width: 750px){
   .hero-text h1{
     font-size: 3rem;
+  }
+  .hero-text h2 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 1000px){
+  .hero-text h1{
+    font-size: 4rem;
+  }
+  .hero-text h2 {
+    font-size: 1.7rem;
   }
 }
