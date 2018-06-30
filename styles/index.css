@@ -158,3 +158,8 @@ footer{
   margin-bottom: 5px;
 }
 
+@media screen and (min-width: 750px) and (orientation: landscape){
+  .hero-text h1{
+    font-size: 3rem;
+  }
+}
