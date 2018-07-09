@@ -43,7 +43,6 @@ header {
 }
 .fixed-ul{
   font-size: 1.5rem;
-  max-width: 15em;
   margin: 0 auto;
 }
 .fixed-ul a{
@@ -51,6 +50,9 @@ header {
 }
 .fixed-ul a:hover{
   font-weight: bold;
+}
+.fixed-ul li{
+
 }
 .anchor-span{
   display: block;
@@ -95,17 +97,18 @@ header ul{
   opacity: 1; 
 }
 .hideLogo{
-opacity: 0;
-font-size: 18px;
-transition: opacity 2s ease;
+  opacity: 0;
+  font-size: 18px;
+  transition: opacity 1.5s ease;
 }
+
 footer{
   text-align: center;
+  font-size: 3vw;
 }
 /* Page content */
 .content {
-  padding: 16px;
-  max-width: 940px;
+  max-width: 90vw;
   margin: 0 auto;
 }
 
@@ -125,26 +128,26 @@ footer{
   height: 40em;
 }
 #projects-section{
-  height: 98em;
+  height: 110em;
 }
 .project-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 12px 25px #555;
-  border: 0px solid black;
   border-radius: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   color: white;
   background-color: #793B3B;
 }
 .project-container-links{
-  height: 60px;
+  height: 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 8px;
 }
+
 .lemonade-screenshot{
   width: 90%;
   margin-bottom: 9px;
@@ -154,23 +157,12 @@ footer{
   font-weight: bold;
 }
 .project-container p {
-  max-width: 90%;
+  max-width: 85%;
   margin-bottom: 5px;
+  margin-top:  10px;
+  font-size: .9em;
+}
+.linkedinLogo{
+  margin-left: 18px;
 }
 
-@media screen and (min-width: 750px){
-  .hero-text h1{
-    font-size: 3rem;
-  }
-  .hero-text h2 {
-    font-size: 1.3rem;
-  }
-}
-@media screen and (min-width: 1000px){
-  .hero-text h1{
-    font-size: 4rem;
-  }
-  .hero-text h2 {
-    font-size: 1.7rem;
-  }
-}
