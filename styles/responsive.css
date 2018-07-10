@@ -24,6 +24,9 @@
   .contact-ul li {
     padding: 65px;
   }
+  .projects-header{
+    margin-left: 24px
+  }
 }
 
 @media screen and (min-width: 1000px){
@@ -62,6 +65,9 @@
   }
   .project-container-links a{
     font-size: 1.3em;
+  }
+  .project-container h2{
+    font-size: 2rem;
   }
 }
 
