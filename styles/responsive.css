@@ -55,10 +55,13 @@
     height: 120px;
   }
   .project-container p {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   footer{
     font-size: 2vw;
+  }
+  .project-container-links a{
+    font-size: 1.3em;
   }
 }
 

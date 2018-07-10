@@ -146,10 +146,11 @@ footer{
   flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 8px;
+  text-align:  center;
 }
 
-.lemonade-screenshot{
-  width: 90%;
+.project-screenshot{
+  width: 66%;
   margin-bottom: 9px;
 }
 .project-container h2{
