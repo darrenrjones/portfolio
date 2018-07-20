@@ -71,6 +71,7 @@ header ul{
 #about p{
   font-size: 1rem;
   line-height: 120%;
+  text-align: justify;
 }
 
 .contact-ul{
