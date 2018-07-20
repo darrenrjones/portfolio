@@ -12,7 +12,7 @@
     font-size: 1.5rem;
   }
   .fixed-ul{
-    max-width: 66vw;
+    max-width: 75vw;
     font-size: 1.8rem;
   }
   #projects-section{
@@ -31,10 +31,10 @@
 
 @media screen and (min-width: 1000px){
   .hero-text h1{
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .hero-text h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .content {
     max-width: 66vw;
@@ -49,7 +49,7 @@
     height: 60em;
   }
   #projects-section{
-    height: 155em;
+    height: 176em;
   }
   .normalSizedLogo{
     height: 110%;
@@ -69,11 +69,16 @@
   .project-container h2{
     font-size: 2rem;
   }
+  header {
+    height: 100px;
+    padding: 1.75em 0px;
+
+  }
 }
 
 @media screen and (min-width: 1200px){
   .content {
-    max-width: 50vw;
+    max-width: 60vw;
   }
 
 }
@@ -106,4 +111,10 @@
     height: 200em;
   }
 
+}
+
+@media screen and (max-width: 1550px){
+  .hideLogo{
+    display: none;
+  }
 }
