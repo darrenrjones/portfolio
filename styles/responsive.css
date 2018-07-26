@@ -72,7 +72,6 @@
   header {
     height: 100px;
     padding: 1.75em 0px;
-
   }
 }
 
@@ -110,11 +109,16 @@
   #projects-section{
     height: 200em;
   }
-
 }
 
-@media screen and (max-width: 1550px){
+/* ---------------------------------------- */
+
+@media screen and (max-width: 750px){
   .hideLogo{
     display: none;
+    font-size: 11px;
+    margin-top: 10px;
   }
 }
+
+
