@@ -1,0 +1,17 @@
+@media screen and (max-width: 750px){
+  .hideLogo{
+    display: none;
+  }
+}
+
+
+/* 
+.logoImg:hover + .hideLogo{
+  opacity: 1; 
+}
+.hideLogo{
+  opacity: 0;
+  font-size: 11px;
+  transition: opacity 1.5s ease;
+  margin-top: 10px;
+} */
