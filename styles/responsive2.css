@@ -2,6 +2,58 @@
   .hideLogo{
     display: none;
   }
+  
+}
+@media screen and (min-width: 750px){
+.hero-text {
+  top: 57%;
+}
+.hero-text h1{
+  font-size: 4rem;
+}
+.hero-text h2 {
+  font-size: 2rem;
+}
+.content {
+  max-width: 66vw;
+}
+.about-paragraph{
+  font-size: 1.8rem;
+} 
+.fixed-ul{
+  font-size: 2rem;
+  justify-content: space-around;
+}
+.section{
+  height: 60em;
+}
+#projects-section{
+  height: 186em;
+}
+.normalSizedLogo{
+  height: 30%;
+}
+.smallImg {
+  height: 100px;
+}
+.project-container p {
+  font-size: 1.3em;
+}
+footer{
+  font-size: 2vw;
+}
+.project-container-links a{
+  font-size: 1.3em;
+}
+.project-container h2{
+  font-size: 2rem;
+}
+header {
+  padding: 1.75em 0px;
+}
+.myHeader{
+  padding: 3px 0px;
+}
 }
 
 
