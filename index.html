@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="styles/images/favicon.ico">
   <link rel="stylesheet" href="styles/index2.css">
 
-  <link rel="stylesheet" href="styles/responsive2.css">
+  <link rel="stylesheet" href="styles/responsive.css">
   <title>Darren Jones Portfolio</title>
 </head>
 <body>
@@ -35,7 +35,7 @@
 
     <span class="anchor-span" id="about"></span>
 
-    <div class="section" >
+    <div class="section section-about" >
       <p class="about-paragraph">
         I'm Darren, a web developer and Portland native. I like to create and fix stuff. Finding a solution to a tough problem is one of the most satisfying things one could do, and my patient and competitive nature help to keep me working at the problem until it's solved.  <br>
         <br> I make apps using React.js, Redux, or jQuery for the front-end, and Node.js with MongoDB or PostgreSQL for the back-end. I enjoy the challenge of working on full stack applications and I love the open and ever changing web dev community. I have many ideas and look forward to being part of a great team.
@@ -48,6 +48,19 @@
 
     <div class="section" id="projects-section">
 
+      <div class="project-container">
+        <h2 class="project-title">Bonus Kid</h2>
+        <p class="project-description">
+          Did she get all A's in school? Did he do all his chores? Those kids deserve a bonus! This app helps parents incentivize good behavior. The parent creates custom tasks and sets up rewards. When the child completes a task and the parent signs off on it, they gets points they can spend to purchase a Reward!</p>
+        <p class="project-stack">( React-Redux, Enzyme, Express, Passport, JWT, Chai, Mocha  )</p>        
+        <img class="project-screenshot" src='https://preview.ibb.co/bOi5wK/wide_screen.png' alt="screenshot of Bonus Kid app">        
+        <p class="project-tech-description">Bonus Kid was created by 4 people over 3 weeks. I worked on the child user components and did all testing for the front end. On the back-end I helped with the initial set up and worked on the seed database file. Contributing to the planning of this app was great fun and it was satisfying to see it all come together.</p>
+        <div class="project-container-links">
+          <a href="http://bonuskid.tk" target="_blank" rel="noopener noreferrer">Live Link</a>
+          <a href="https://github.com/thinkful-ei20/bonus-kid-app-client/tree/master/client" target="_blank" rel="noopener noreferrer">Client Repo</a>
+          <a href="https://github.com/thinkful-ei20/bonus-kid-app-server" target="_blank" rel="noopener noreferrer">Server Repo</a>
+        </div>
+      </div>
 
       <div class="project-container">
         <h2 class="project-title">Lemonade Clicker Tycoon</h2>
@@ -63,28 +76,31 @@
       </div>
 
       <div class="project-container">
-        <h2 class="project-title">Noteful</h2>
-        <p class="project-description">Organization app to create and filter notes for yourself.</p>
+        <h2 class="project-title">Learn Farsi</h2>
+        <p class="project-description">A language learning app using a spaced repetition algorithm to increase learning potential.</p>
         <p class="project-stack">(Node, Express, Bcrypt, Passport, Chai, Mocha) </p>        
-        <img class="project-screenshot" src="./styles/images/noteful.png" alt="screenshot of Noteful app">        
-        <p class="project-tech-description">I implemented this app's backend step by step while learning the technologies.</p>
+        <img class="project-screenshot" src="https://user-images.githubusercontent.com/36980730/42707347-e804c9ae-86a7-11e8-8fe5-67128f2051a0.png" alt="screenshot of Noteful app">        
+        <p class="project-tech-description">My partner <a href="https://github.com/arsalonk">Sayed</a> and I built this app in 1 week. I was mostly on the server side but we both worked on a bit of everything.</p>
         <div class="project-container-links">  
-          <a href="https://darren-noteful-app-v4.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out here!</a>
-          <a href="https://github.com/thinkful-ei20/darren-noteful-app-v4" target="_blank" rel="noopener noreferrer" >Repo</a>
+            <a href="https://sr-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Link</a>
+            <a href="https://github.com/thinkful-ei20/SP-sayed-darren-client" target="_blank" rel="noopener noreferrer">Client Repo</a>
+            <a href="https://github.com/thinkful-ei20/bonus-kid-app-server" target="_blank" rel="noopener noreferrer">Server Repo</a>
         </div>
       </div>
 
       <div class="project-container">
-        <h2 class="project-title">Bookmark Collection</h2>
+        <h2 class="project-title">Time Tracker</h2>
         <p class="project-description">
           If you ever wanted to know how much time you spent working on a specific project, or even just how much time you spent doing the dishes, Time Tracker is the app for you. Create a Timer and then track away.</p>
         <p class="project-stack">( React Native, Redux, Expo )</p>        
-        <img class="project-screenshot" src="./styles/images/main.png" alt="screenshot of Time Tracker app">        
-        <p class="project-tech-description">This is something I would want to use so I made it in a week while learning React Native.</p>
+        <img class="project-screenshot timetracker-screenshot" src="./styles/images/main.png" alt="screenshot of Time Tracker app">        
+        <p class="project-tech-description">This is an app that I would want to use so I made it in a week while learning React Native.</p>
         <div class="project-container-links">
           <a href="https://github.com/darrenrjones/time-tracker-native" target="_blank" rel="noopener noreferrer">Repo</a>
         </div>
-      </div>       
+      </div>  
+      
+    
       
     </div>
 
@@ -108,7 +124,7 @@
 
         <div>
           <a class="logoImg" href="https://www.dropbox.com/s/vacdzl2nme8xaix/Darren%20Jones%20Resume%2008-2018%20.pdf?dl=0" target="_blank" rel="noopener noreferrer">
-            <img class="normalSizedLogo" src="./styles/images/icons8-resume-filled-50.png" alt="Resume logo" border="0">
+            <img class="normalSizedLogo resume-logo" src="./styles/images/icons8-resume-filled-50.png" alt="Resume logo" border="0">
           </a>
             <p class="hideLogo">Résumé</p>
             

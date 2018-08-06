@@ -1,0 +1,85 @@
+/* do not display link text on small screen */
+@media screen and (max-width: 750px){
+  .hideLogo{
+    display: none;
+  }  
+}
+@media screen and (min-width: 500px){
+  .project-container p{
+    width: 75%;
+  }
+}
+@media screen and (min-width: 750px){
+  .fixed-ul{
+    justify-content: space-evenly;
+  }  
+  .about-paragraph{
+    max-width: 66%;
+  }
+  .hideLogo{
+    font-size: .8em;
+  }
+  .contact-section{
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+  .project-container{
+    font-size: 1em;
+    width: 75%;
+  }
+  .project-stack{
+    font-size: 1em;
+  }
+  .hero-text h1{
+    font-size: 2.8em;
+  }
+}
+@media screen and (min-width: 1000px){
+
+  .about-paragraph{
+  font-size: 1.2em;
+  }
+  .project-screenshot{
+    width: 50%;
+  }
+  .timetracker-screenshot{
+    width: 40%;
+  }
+  .project-container p{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px){
+
+  .hero-text h1{
+    font-size: 3.5em;
+  }
+  .hero-text h2{
+    font-size: 1.6em;
+  }
+  .fixed-ul{
+    font-size: 2em;
+  }
+  .project-container h2{
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1400px){
+  .about-paragraph{
+    font-size: 1.5em;
+  }
+  .project-container h2{
+    font-size: 2.3em;
+  }
+}
+
+/* 
+.logoImg:hover + .hideLogo{
+  opacity: 1; 
+}
+.hideLogo{
+  opacity: 0;
+  font-size: 11px;
+  transition: opacity 1.5s ease;
+  margin-top: 10px;
+} */
