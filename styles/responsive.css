@@ -1,12 +1,46 @@
 /* do not display link text on small screen */
 @media screen and (max-width: 750px){
-  .hideLogo{
+  .logo-paragraph{
     display: none;
   }  
 }
+/* landscape view alter background image */
+@media screen and (orientation: landscape){
+  .hero-image{
+    background: url('./images/dale-nibbe-723594-unsplash-landscape.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .footer{
+    margin: initial;
+  }
+  .contact-ul div{
+    flex-basis: 33%;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 640px){
+  .hero-text{
+    top: 56%;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 1400px){
+  .contact-ul div{
+    flex-basis: 50%;
+    margin: 0px auto 5em auto;
+  }
+}
+
+
+/* Viewports */
 @media screen and (min-width: 500px){
   .project-container p{
     width: 75%;
+  }
+  .hero-text h1{
+    font-size: 3em;
+  }
+  .hero-text h2{
+    font-size: 1.2em;
   }
 }
 @media screen and (min-width: 750px){
@@ -16,12 +50,12 @@
   .about-paragraph{
     max-width: 66%;
   }
-  .hideLogo{
-    font-size: .8em;
+  .logo-paragraph{
+    font-size: .7em;
   }
   .contact-section{
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
   .project-container{
     font-size: 1em;
@@ -31,7 +65,10 @@
     font-size: 1em;
   }
   .hero-text h1{
-    font-size: 2.8em;
+    font-size: 3.5em;
+  }
+  .hero-text h2{
+    font-size: 1.5em;
   }
 }
 @media screen and (min-width: 1000px){
@@ -42,20 +79,33 @@
   .project-screenshot{
     width: 50%;
   }
+  .project-container p {
+    max-width: 70%;
+    font-size: 1.2em;
+  }
   .timetracker-screenshot{
     width: 40%;
   }
   .project-container p{
     text-align: center;
   }
+    .hero-text h1{
+    font-size: 3.7em;
+  }
+  .hero-text h2{
+    font-size: 1.6em;
+  }
+  .contact-ul div img{
+    height: 6em;
+  }
 }
 @media screen and (min-width: 1200px){
 
   .hero-text h1{
-    font-size: 3.5em;
+    font-size: 3.9em;
   }
   .hero-text h2{
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
   .fixed-ul{
     font-size: 2em;
@@ -63,6 +113,11 @@
   .project-container h2{
     font-size: 2em;
   }
+  .contact-section{
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+  
 }
 @media screen and (min-width: 1400px){
   .about-paragraph{
@@ -71,15 +126,15 @@
   .project-container h2{
     font-size: 2.3em;
   }
+  .hero-text h1{
+    font-size: 4.7em;
+  }
+  .contact-section{
+    padding-top: 6em;
+    padding-bottom: 12em;
+  }
+  footer{
+    text-align: center;
+    margin: 4em auto 2em auto;
+  }
 }
-
-/* 
-.logoImg:hover + .hideLogo{
-  opacity: 1; 
-}
-.hideLogo{
-  opacity: 0;
-  font-size: 11px;
-  transition: opacity 1.5s ease;
-  margin-top: 10px;
-} */
