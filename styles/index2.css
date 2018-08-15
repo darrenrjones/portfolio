@@ -99,6 +99,9 @@ body, html {
   background-color: #4A4E69;
   font-size: .8em;
 }
+.project-tech-description, .project-description {
+  font-size: 1.2em;
+}
 .project-container-links{
   height: 5em;
   display: flex;
