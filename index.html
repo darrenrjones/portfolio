@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Web Developer Darren Jones personal portfolio">
+  <meta name="keywords" content="portfolio,Darren Jones,Web Developer,Full Stack Web Developer,React,HTML,CSS,JavaScript,Node,Express">
+  <meta name="author" content="Darren Jones">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles/normalize.css">
@@ -11,7 +15,25 @@
 
   <link rel="stylesheet" href="styles/responsive.css">
   <title>Darren Jones Portfolio</title>
+  <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = 'GXPJ5';
+    window['_fs_namespace'] = 'FS';
+    (function (m, n, e, t, l, o, g, y) {
+      if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; }
+      g = m[e] = function (a, b, s) { g.q ? g.q.push([a, b, s]) : g._api(a, b, s); }; g.q = [];
+      o = n.createElement(t); o.async = 1; o.src = 'https://' + _fs_host + '/s/fs.js';
+      y = n.getElementsByTagName(t)[0]; y.parentNode.insertBefore(o, y);
+      g.identify = function (i, v, s) { g(l, { uid: i }, s); if (v) g(l, v, s) }; g.setUserVars = function (v, s) { g(l, v, s) }; g.event = function (i, v, s) { g('event', { n: i, p: v }, s) };
+      g.shutdown = function () { g("rec", !1) }; g.restart = function () { g("rec", !0) };
+      g.consent = function (a) { g("consent", !arguments.length || a) };
+      g.identifyAccount = function (i, v) { o = 'account'; v = v || {}; v.acctId = i; g(o, v) };
+      g.clearUserCookie = function () { };
+    })(window, document, window['_fs_namespace'], 'script', 'user');
+  </script>
 </head>
+
 <body>
 
   <div class="hero-image" id="heroImage">
@@ -24,24 +46,29 @@
   </div>
 
   <header id="myHeader" class="myHeader">
-      <ul class="fixed-ul">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <ul class="fixed-ul">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </header>
 
   <div class="content">
 
     <span class="anchor-span" id="about"></span>
 
-    <div class="section section-about" >
+    <div class="section section-about">
       <p class="about-paragraph">
-        I'm Darren, a web developer and Portland native. I like to create and fix stuff. Finding a solution to a tough problem is one of the most satisfying things one could do, and my patient and competitive nature help to keep me working at the problem until it's solved.  <br>
-        <br> I make apps using React.js, Redux, or jQuery for the front-end, and Node.js with MongoDB or PostgreSQL for the back-end. I enjoy the challenge of working on full stack applications and I love the open and ever changing web dev community. I have many ideas and look forward to being part of a great team.
-        <br><br>Outside of work I spend time with my wife and daughter and we enjoy cooking, reading, and hiking. In my spare time I like to play the bass guitar, board games, video games, indoor soccer, basketball, or racquetball.   
+        I'm Darren, a web developer and Portland native. I like to create and fix stuff. Finding a solution to a tough
+        problem is one of the most satisfying things one could do, and my patient and competitive nature help to keep
+        me working at the problem until it's solved. <br>
+        <br> I make apps using React.js, Redux, or jQuery for the front-end, and Node.js with MongoDB or PostgreSQL for
+        the back-end. I enjoy the challenge of working on full stack applications and I love the open and ever changing
+        web dev community. I have many ideas and look forward to being part of a great team.
+        <br><br>Outside of work I spend time with my wife and daughter and we enjoy cooking, reading, and hiking. In my
+        spare time I like to play the bass guitar, board games, video games, indoor soccer, basketball, or racquetball.
       </p>
-        
+
     </div>
 
     <span class="anchor-span" id="projects"></span>
@@ -49,59 +76,92 @@
     <div class="section" id="projects-section">
 
       <div class="project-container">
-        <h2 class="project-title">Bonus Kid</h2>
+        <h2 class="project-title">Farm Clicker Tycoon</h2>
         <p class="project-description">
-          Did she get all A's in school? Did he do all his chores? Those kids deserve a bonus! This app helps parents incentivize good behavior. </p>
-        <p class="project-stack">( React-Redux, Enzyme, Express, Passport, JWT, Chai, Mocha  )</p>        
-        <img class="project-screenshot" src='https://image.ibb.co/g4r9iz/bonuskid_mockup.jpg' alt="screenshot of Bonus Kid app">        
-        <p class="project-tech-description">Bonus Kid was created by 4 people over 3 weeks. I worked on the child user components and helped on the back end. I also did all testing for the front end. Planning an app using the agile methodology was a great experience.</p>
+          Resource Management clicker game. Grows crops to feed the animals so you can produce products to make money!
+        </p>
+        <p class="project-stack">( React-Redux, Enzyme, Express, Passport, JWT, Chai, Mocha )</p>
+        <img class="project-screenshot" src='https://image.ibb.co/g4r9iz/bonuskid_mockup.jpg' alt="screenshot of Bonus Kid app">
+        <p class="project-tech-description">Created by myself for </p>
         <div class="project-container-links">
           <a href="http://bonuskid.tk" target="_blank" rel="noopener noreferrer">Live Link</a>
-          <a href="https://github.com/thinkful-ei20/bonus-kid-app-client/tree/master/client" target="_blank" rel="noopener noreferrer">Client Repo</a>
-          <a href="https://github.com/thinkful-ei20/bonus-kid-app-server" target="_blank" rel="noopener noreferrer">Server Repo</a>
+          <a href="https://github.com/thinkful-ei20/bonus-kid-app-client/tree/master/client" target="_blank" rel="noopener noreferrer">Client
+            Repo</a>
+          <a href="https://github.com/thinkful-ei20/bonus-kid-app-server" target="_blank" rel="noopener noreferrer">Server
+            Repo</a>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <h2 class="project-title">Bonus Kid</h2>
+        <p class="project-description">
+          Did she get all A's in school? Did he do all his chores? Those kids deserve a bonus! This app helps parents
+          incentivize good behavior. </p>
+        <p class="project-stack">( React-Redux, Enzyme, Express, Passport, JWT, Chai, Mocha )</p>
+        <img class="project-screenshot" src='https://image.ibb.co/g4r9iz/bonuskid_mockup.jpg' alt="screenshot of Bonus Kid app">
+        <p class="project-tech-description">Bonus Kid was created by 4 people over 3 weeks. I worked on the child user
+          components and helped on the back end. I also did all testing for the front end. Planning an app using the
+          agile methodology was a great experience.</p>
+        <div class="project-container-links">
+          <a href="http://bonuskid.tk" target="_blank" rel="noopener noreferrer">Live Link</a>
+          <a href="https://github.com/thinkful-ei20/bonus-kid-app-client/tree/master/client" target="_blank" rel="noopener noreferrer">Client
+            Repo</a>
+          <a href="https://github.com/thinkful-ei20/bonus-kid-app-server" target="_blank" rel="noopener noreferrer">Server
+            Repo</a>
         </div>
       </div>
 
       <div class="project-container">
         <h2 class="project-title">Lemonade Clicker Tycoon</h2>
-        <p class="project-description">Click your way to millions in this casual clicker game by selling lemonade, hiring employees and purchasing upgrades.</p>
-        <p class="project-stack">( React-Redux, Node, Express, Passport )</p>        
-        <img class="project-screenshot" src="https://image.ibb.co/c47KGK/smartmockups.jpg" alt="screenshot of Lemonade Clicker Tycoon app">        
-        <p class="project-tech-description">I had a lot of fun building my first original full stack app over a period of about 2 weeks. I have more game ideas and look forward to implementing them. </p>
+        <p class="project-description">Click your way to millions in this casual clicker game by selling lemonade,
+          hiring employees and purchasing upgrades.</p>
+        <p class="project-stack">( React-Redux, Node, Express, Passport )</p>
+        <img class="project-screenshot" src="https://image.ibb.co/c47KGK/smartmockups.jpg" alt="screenshot of Lemonade Clicker Tycoon app">
+        <p class="project-tech-description">I had a lot of fun building my first original full stack app over a period
+          of about 2 weeks. I have more game ideas and look forward to implementing them. </p>
         <div class="project-container-links">
-          <a href="https://lemonade-clicker-tycoon.netlify.com/" target="_blank" rel="noopener noreferrer">Play it here!</a>
-          <a href="https://github.com/darrenrjones/Lemonade-Clicker-Tycoon" target="_blank" rel="noopener noreferrer">Client Repo</a>
-          <a href="https://github.com/darrenrjones/Lemonade-Clicker-Server" target="_blank" rel="noopener noreferrer">Server Repo</a>
+          <a href="https://lemonade-clicker-tycoon.netlify.com/" target="_blank" rel="noopener noreferrer">Play it
+            here!</a>
+          <a href="https://github.com/darrenrjones/Lemonade-Clicker-Tycoon" target="_blank" rel="noopener noreferrer">Client
+            Repo</a>
+          <a href="https://github.com/darrenrjones/Lemonade-Clicker-Server" target="_blank" rel="noopener noreferrer">Server
+            Repo</a>
         </div>
       </div>
 
       <div class="project-container">
         <h2 class="project-title">Learn Farsi</h2>
-        <p class="project-description">A language learning app using a spaced repetition algorithm to increase learning potential.</p>
-        <p class="project-stack">(Node, Express, Bcrypt, Passport, Chai, Mocha) </p>        
-        <img class="project-screenshot" src="https://image.ibb.co/n2nnJ9/learn_Farsi_Landing.png" alt="screenshot of Noteful app">        
-        <p class="project-tech-description">My partner <a href="https://github.com/arsalonk">Sayed</a> and I built this app in 1 week. I was mostly on the server side but we both worked on a bit of everything.</p>
-        <div class="project-container-links">  
-            <a href="https://sr-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Link</a>
-            <a href="https://github.com/thinkful-ei20/SP-sayed-darren-client" target="_blank" rel="noopener noreferrer">Client Repo</a>
-            <a href="https://github.com/thinkful-ei20/SP-Sayed-Darren-Server" target="_blank" rel="noopener noreferrer">Server Repo</a>
+        <p class="project-description">A language learning app using a spaced repetition algorithm to increase learning
+          potential.</p>
+        <p class="project-stack">(Node, Express, Bcrypt, Passport, Chai, Mocha) </p>
+        <img class="project-screenshot" src="https://image.ibb.co/n2nnJ9/learn_Farsi_Landing.png" alt="screenshot of Noteful app">
+        <p class="project-tech-description">My partner <a href="https://github.com/arsalonk">Sayed</a> and I built this
+          app in 1 week. I was mostly on the server side but we both worked on a bit of everything.</p>
+        <div class="project-container-links">
+          <a href="https://sr-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Link</a>
+          <a href="https://github.com/thinkful-ei20/SP-sayed-darren-client" target="_blank" rel="noopener noreferrer">Client
+            Repo</a>
+          <a href="https://github.com/thinkful-ei20/SP-Sayed-Darren-Server" target="_blank" rel="noopener noreferrer">Server
+            Repo</a>
         </div>
       </div>
 
       <div class="project-container">
         <h2 class="project-title">Time Tracker</h2>
         <p class="project-description">
-          If you ever wanted to know how much time you spent working on a specific project, or even just how much time you spent doing the dishes, Time Tracker is the app for you. Create a Timer and then track away.</p>
-        <p class="project-stack">( React Native, Redux, Expo )</p>        
-        <img class="project-screenshot timetracker-screenshot" src="./styles/images/main.png" alt="screenshot of Time Tracker app">        
-        <p class="project-tech-description">This is an app that I would want to use so I made it in a week while learning React Native.</p>
+          If you ever wanted to know how much time you spent working on a specific project, or even just how much time
+          you spent doing the dishes, Time Tracker is the app for you. Create a Timer and then track away.</p>
+        <p class="project-stack">( React Native, Redux, Expo )</p>
+        <img class="project-screenshot timetracker-screenshot" src="./styles/images/main.png" alt="screenshot of Time Tracker app">
+        <p class="project-tech-description">This is an app that I would want to use so I made it in a week while
+          learning React Native.</p>
         <div class="project-container-links">
           <a href="https://github.com/darrenrjones/time-tracker-native" target="_blank" rel="noopener noreferrer">Repo</a>
         </div>
-      </div>  
-      
-    
-      
+      </div>
+
+
+
     </div>
 
     <span class="anchor-span" id="contact"></span>
@@ -111,53 +171,56 @@
 
         <div>
           <a class="logoImg" href="https://github.com/darrenrjones" target="_blank" rel="noopener noreferrer">
-            <img class="normalSizedLogo" src="./styles/images/GitHub-Mark-64px.png" alt="Github logo" border="0">            
+            <img class="normalSizedLogo" src="./styles/images/GitHub-Mark-64px.png" alt="Github logo" border="0">
           </a>
           <p class="logo-paragraph">github.com/darrenrjones</p>
         </div>
         <div>
           <a class="logoImg" href="https://www.linkedin.com/in/darrenraymondjones" target="_blank" rel="noopener noreferrer">
-            <img class="normalSizedLogo linkedinLogo" src="./styles/images/In-Black-59px-R.png" alt="LinkedIn logo" border="0">
+            <img class="normalSizedLogo linkedinLogo" src="./styles/images/In-Black-59px-R.png" alt="LinkedIn logo"
+              border="0">
           </a>
-            <p class="logo-paragraph">linkedin.com/in/darrenraymondjones</p>
+          <p class="logo-paragraph">linkedin.com/in/darrenraymondjones</p>
         </div>
 
         <div>
           <a class="logoImg" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-            <img class="normalSizedLogo resume-logo" src="./styles/images/icons8-resume-filled-50.png" alt="Resume logo" border="0">
+            <img class="normalSizedLogo resume-logo" src="./styles/images/icons8-resume-filled-50.png" alt="Resume logo"
+              border="0">
           </a>
-            <p class="logo-paragraph">Résumé</p>
-            
+          <p class="logo-paragraph">Résumé</p>
+
         </div>
-        
+
         <div>
-          <a class="logoImg" href="mailto:darrenraymondjones@gmail.com" target="_top"> 
+          <a class="logoImg" href="mailto:darrenraymondjones@gmail.com" target="_top">
             <img class="normalSizedLogo emailLogo" src="./styles/images/e-mail-8.png" alt="email envelope logo" border="0">
           </a>
-            <p class="logo-paragraph">darrenraymondjones@gmail.com</p>
+          <p class="logo-paragraph">darrenraymondjones@gmail.com</p>
         </div>
 
         <div>
           <a class="logoImg" href="https://angel.co/darren-jones-10" target="_blank" rel="noopener noreferrer">
-            <img class="smallImg" src="./styles/images/AngelList_Black_Victory_Hand.png" alt="Angel List logo" >
+            <img class="smallImg" src="./styles/images/AngelList_Black_Victory_Hand.png" alt="Angel List logo">
           </a>
-            <p class="logo-paragraph">angel.co/darren-jones-10</p>
+          <p class="logo-paragraph">angel.co/darren-jones-10</p>
 
         </div>
         <div>
           <a class="logoImg" href="https://medium.com/@ninenumbproductions" target="_blank" rel="noopener noreferrer">
-            <img class="smallImg" src="./styles/images/mediumicon.png" alt="blog logo" >
+            <img class="smallImg" src="./styles/images/mediumicon.png" alt="blog logo">
           </a>
-            <p class="logo-paragraph">medium.com/@ninenumbproductions</p>
+          <p class="logo-paragraph">medium.com/@ninenumbproductions</p>
         </div>
       </div>
     </div>
 
-  <footer>Darren Jones 2018 &#9400;</footer>
-</div>
+    <footer>Darren Jones 2018 &#9400;</footer>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="index.js"></script>
 
 </body>
+
 </html>
