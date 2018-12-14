@@ -6,11 +6,10 @@
 }
 /* landscape view alter background image */
 @media screen and (orientation: landscape){
-  .hero-image{
-    background: url('./images/dale-nibbe-723594-unsplash-landscape.jpg');
+  /* .hero-image{
+    background: url('./images/dale-nibbe-723594-unsplash-minified.jpg');
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
+  } */
   .footer{
     margin: initial;
   }
