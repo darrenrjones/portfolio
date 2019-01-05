@@ -19,7 +19,7 @@
 }
 @media screen and (orientation: landscape) and (min-width: 640px){
   .hero-text{
-    top: 56%;
+    /* top: 49%; */
   }
 }
 @media screen and (orientation: landscape) and (min-width: 1400px){
@@ -57,12 +57,12 @@
     padding-bottom: 3em;
   }
   .project-container{
-    font-size: 1em;
+    /* font-size: -99.1em; */
     width: 66%;
   }
-  .project-stack{
+  /* .project-stack{
     font-size: 1em;
-  }
+  } */
   .hero-text h1{
     font-size: 3.5em;
   }
@@ -80,13 +80,11 @@
   }
   .project-container p {
     max-width: 70%;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    text-align: center;
   }
   .timetracker-screenshot{
     width: 40%;
-  }
-  .project-container p{
-    text-align: center;
   }
     .hero-text h1{
     font-size: 3.7em;
@@ -110,7 +108,7 @@
     font-size: 2em;
   }
   .project-container h2{
-    font-size: 2em;
+    /* font-size: 2em; */
   }
   .contact-section{
     padding-top: 6em;

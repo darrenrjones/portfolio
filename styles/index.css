@@ -8,7 +8,7 @@ body, html {
 }
 .hero-image {
   background: url('./images/dale-nibbe-723594-unsplash-minified.jpg');
-  height: 45%;
+  height: 40%;
   background-repeat: no-repeat;
   background-size: 100% 123%;
   position: relative;
@@ -103,12 +103,8 @@ body, html {
   font-size: 1.2em;
 }
 .project-container-links{
-  height: 5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-bottom: .2em;
-  text-align:  center;
+  margin-bottom: .6em;
+  font-size: 1.5em;
 }
 .project-container-links a {
   text-decoration: none;
@@ -116,7 +112,7 @@ body, html {
 }
 .project-description {
   max-width: 86%;
-  margin: 0 auto .5em auto;
+  margin: 0 auto 1em auto;
 }
 .project-container a:hover{
   font-weight: bold;
@@ -139,12 +135,14 @@ body, html {
 .timetracker-screenshot{
   width: 40%;
 }
-.project-container h2{
+.project-title{
   text-align: center;
+  margin-bottom: 0;
 }
 .project-stack{
-  font-size: .7em;
+  font-size: .9em;
   text-align: center;
+  margin-top: 0.2em;
 }
 
 /* ----------------CONTACT-------------- */
