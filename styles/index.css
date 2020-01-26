@@ -87,6 +87,7 @@ body, html {
   text-align: justify;
   max-width: 95%;
   margin: 2em auto;
+  font-size: .8em;
 }
 .project-container{
   display: flex;
