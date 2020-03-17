@@ -149,6 +149,9 @@ body, html {
   text-align: center;
   margin-top: 0.2em;
 }
+.WebDevHeading{
+  text-align: center;
+}
 
 /* ----------------CONTACT-------------- */
 .contact-section{
