@@ -179,6 +179,9 @@ body, html {
 .resume-logo{
   height:4em;
 }
+.DrawingsLink{
+  font-weight: bold;
+}
 
 footer{
   text-align: center;
