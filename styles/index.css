@@ -111,6 +111,10 @@ body, html {
   text-decoration: none;
   color: white;
 }
+.drawing-link {
+  text-decoration: none;
+  color: white;
+}
 .project-description {
   max-width: 86%;
   margin: 0 auto 1em auto;
